@@ -6,9 +6,15 @@ description: Keeping your Feedbacky instance up to date or migrating to a new ho
 
 ## Staying up to date
 
-Keeping Feedbacky up to date is simple, keep and eye out for new versions on [Docker Hub](https://hub.docker.com/u/plajer).
+Keeping Feedbacky up to date is simple, keep and eye out for new versions on the [Docker Hub](https://hub.docker.com/u/plajer).
 
-Use the following command to update Feedbacky, it will pull the latest image available.
+1\. Go to your Feedbacky directory.
+
+```
+cd /etc/feedbacky
+```
+
+2\. Type the following command, it will automatically pull the latest image available.
 
 ```
 sudo docker compose pull
@@ -32,8 +38,8 @@ docker run --rm --volumes-from feedbacky-client -v $(pwd):/backup alpine tar cvf
 
 * `--rm` removes the container after exiting.
 * `--volumes-from feedbacky-client` attach the volume used by the container.
-* `-v $(pwd):/backup` write the backup file into the current directory to the container.
-* `alpine` small image used for the backup process.
+* `-v $(pwd):/backup` writes the backup file into the current directory to the container.
+* `alpine` is a small image used for the backup process.
 * `tar cvfz /backup/feedbacky_backup.tar /storage-data` moves the volume's data into the backup file.
 
 3\. Export your `.env` file and your newly created volume backup to the target host.
