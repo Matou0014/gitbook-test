@@ -13,7 +13,7 @@ sudo mysql
 2\. Create a new user for Feedbacky.
 
 {% hint style="info" %}
-As stated [previously](../dependencies.md#additional-configuration), we won't be able to create a `localhost` user, instead we'll use the `%` wildcard instead.
+As stated [previously](dependencies.md#additional-configuration), we won't be able to create a `localhost` user, instead we'll use the `%` wildcard instead.
 {% endhint %}
 
 ```sql

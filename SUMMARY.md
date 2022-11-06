@@ -20,11 +20,11 @@
 ## Self Hosting
 
 * [Getting Started](self-hosting/getting-started/README.md)
+  * [Dependencies](self-hosting/getting-started/dependencies.md)
   * [Database Setup](self-hosting/getting-started/database-setup.md)
   * [Webserver Setup](self-hosting/getting-started/domain-setup.md)
   * [Environment Variables](self-hosting/getting-started/configuring.md)
   * [Conclusion](self-hosting/getting-started/conclusion.md)
-* [Dependencies](self-hosting/dependencies.md)
 * [Maintenance](self-hosting/updating-upgrading.md)
 
 ## Handbook

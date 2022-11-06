@@ -22,23 +22,23 @@ Consider supporting us by donating or leaving a star on our GitHub repository.
 Panel users are required to read this [FAQ section](../../project-overview/faq.md#can-i-host-feedbacky-on-x-panel).
 {% endhint %}
 
-| Operating System | Version                                       | Status | Notes                                                                                     |
-| ---------------- | --------------------------------------------- | :----: | ----------------------------------------------------------------------------------------- |
-| **Ubuntu**       | "Focal" 20.04                                 |    ✅   | Installation guide based on Focal.                                                        |
-| ​                | "Bionic" 18.04                                |    ✅   | ​                                                                                         |
-| **Debian**       | "Bullseye" 11                                 |    ✅   | ​Missing UFW, see "[Additional Software](../dependencies.md#uncomplicated-firewall-ufw)". |
-| **Windows**      | WSL2                                          |    ✅   | _Should work, not tested!_                                                                |
-| ​                | <p>​Server 2022</p><p><em>Windows 10</em></p> |   🔧   | Working but not officially supported.                                                     |
-| ​                | <p>​Server 2019</p><p><em>Windows 10</em></p> |   🔧   | Working but not officially supported.                                                     |
-| **Mac OS**       | ​                                             |    ❓   | Unknown and not officially supported.                                                     |
+| Operating System | Version                                       | Status | Notes                                                                                  |
+| ---------------- | --------------------------------------------- | :----: | -------------------------------------------------------------------------------------- |
+| **Ubuntu**       | "Focal" 20.04                                 |    ✅   | Installation guide based on Focal.                                                     |
+| ​                | "Bionic" 18.04                                |    ✅   | ​                                                                                      |
+| **Debian**       | "Bullseye" 11                                 |    ✅   | ​Missing UFW, see "[Additional Software](dependencies.md#uncomplicated-firewall-ufw)". |
+| **Windows**      | WSL2                                          |    ✅   | _Should work, not tested!_                                                             |
+| ​                | <p>​Server 2022</p><p><em>Windows 10</em></p> |   🔧   | Working but not officially supported.                                                  |
+| ​                | <p>​Server 2019</p><p><em>Windows 10</em></p> |   🔧   | Working but not officially supported.                                                  |
+| **Mac OS**       | ​                                             |    ❓   | Unknown and not officially supported.                                                  |
 
 ## Prerequisites
 
 * Feedbacky will consume at least `200Mb` of free space.
-* Read the [dependencies](../dependencies.md) page, the following must be installed;
-  * [Docker](../dependencies.md#docker)
-  * [Database](../dependencies.md#mariadb)
-  * [Webserver](../dependencies.md#nginx)
+* Read the [dependencies](dependencies.md) page, the following must be installed;
+  * [Docker](dependencies.md#docker)
+  * [Database](dependencies.md#mariadb)
+  * [Webserver](dependencies.md#nginx)
 * In order to **authenticate**, you will need an account with any of these services;
   * [Discord](https://discord.com)
   * [GitHub](https://github.com)

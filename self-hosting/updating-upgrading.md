@@ -8,10 +8,6 @@ description: Keeping your Feedbacky instance up to date or migrating to a new ho
 This section only concern system administrators who already have Feedbacky installed.
 {% endhint %}
 
-{% hint style="warning" %}
-Cloud users (app.feedbacky.net) currently cannot backup their data.
-{% endhint %}
-
 ## Staying up to date
 
 Keeping Feedbacky up to date is simple, keep and eye out for new versions on the [Docker Hub](https://hub.docker.com/u/plajer).
@@ -32,7 +28,11 @@ sudo docker compose pull
 
 The following steps will help you move your Feedbacky instance to a new host or simple keep your Feedbacky data safe.
 
-1. Go to your Feedbacky directory.
+{% hint style="warning" %}
+Cloud users (app.feedbacky.net) currently cannot backup their data.
+{% endhint %}
+
+1\. Go to your Feedbacky directory.
 
 ```
 cd /etc/feedbacky
