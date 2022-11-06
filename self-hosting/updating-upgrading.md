@@ -4,6 +4,14 @@ description: Keeping your Feedbacky instance up to date or migrating to a new ho
 
 # Maintenance
 
+{% hint style="info" %}
+This section only concern system administrators who already have Feedbacky installed.
+{% endhint %}
+
+{% hint style="warning" %}
+Cloud users (app.feedbacky.net) currently cannot backup their data.
+{% endhint %}
+
 ## Staying up to date
 
 Keeping Feedbacky up to date is simple, keep and eye out for new versions on the [Docker Hub](https://hub.docker.com/u/plajer).
